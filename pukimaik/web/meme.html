@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>meme 1.0</title>
+</head>
+<meta charset="UTF-8">
+<style> 
+		
+	.header { 
+		background-image: url(web/dare joker.jpg);
+		color: #990000;
+		padding: 20px;
+		font-family:sans-serif;
+		text-align:center;
+		font-size:35px;"
+	}	
+	/* Style the top navigation bar */
+	.topnav {
+ 		overflow:auto;
+ 		position:sticky;
+ 		top: 0;
+ 		background-color:#A52A2A;
+ 		z-index: 99998;
+ 		}
+ 	/* Style the topnav links */
+	.topnav a {
+  		float: left;
+  		display: block;
+  		color: #f2f2f2;
+  		text-align: center;
+ 		padding: 14px 16px;
+  		text-decoration: none;
+  	}
+  	/* Change color on hover */
+	.topnav a:hover {
+  		background-color:#DC143C;
+  		color:white;
+  		}
+  	.home{
+  		margin-left: 350px;
+  		width:50%;
+  		height:20%;
+  		margin-top:10px;
+  	}
+  	.base{
+	  	float:none;
+		margin:20px; 
+	  	width: 94%;
+	  	background-color:#F5F5DC;
+	  	padding:20px;
+	 }
+	.base h3{
+		color:#666;
+		font : 20px sans-serif;
+		text-align: center;
+		font-weight: bold;
+
+	}
+	.library h2{
+		font-family: sans-serif;
+		font-weight: bold;
+		size: 24px;
+		text-align: center;
+		color: #990000;
+	}
+	.library img{
+		border:3px;
+		background-color:rgb(255, 255, 255,0.5);
+		border-color:#5F9EA0;
+		padding:15px;
+		width:200px;
+		height:180px;
+		margin:20px;
+		display: inline-flex;
+	}
+	.library img:hover {
+		display: inline-block;
+		padding:6px;
+		background-color:rgb(112, 128, 144,0.75);
+		transform:scale(1.2,1.2);
+		transition-duration:0.5s; 
+	}
+/*overlay*/
+	.overlay{
+		width:0;
+		height:0;
+		overflow: hidden;
+		position: fixed;
+		top:0;
+		bottom:0;
+		background:rgba(0,0,0,0);
+		z-index: 99999;
+		transition: 0.7s;
+	}
+	.overlay:target{
+		width: auto;
+		height: auto;
+		left:0;
+		right:0;
+		background:rgba(0,0,0,0.7);
+	}
+	
+	.overlay:target img{
+		max-height: 100%;
+		padding: 100px;
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+</style>
+<body>	
+	<div class="topnav">
+ 		<a href="pookeemike.html">Home</a>
+ 		<a href="%231.html">MIC</a>
+ 		<a href="meme.html">Meme</a>
+ 		<a href="#" style="float:right;">About</a>
+ 	</div>
+	<div class="header">
+		<h1>WELCOME TO MEME v1.0</h1>
+	</div>
+ 	<div class="base">
+ 		<h3>This Page is full of sensitive content. Them, who are easily offended are restricted to access any content in this page. </h3>	
+ 		<img class="home"src="77789.jpg">
+ 		<br>
+ 		<div class="library">
+	 		<h2>LIBRARY</h2>
+	 		<a href="#over">
+	 			<img src="77788.jpg">
+	 		</a>
+	 		<a href="#over2">
+	 			<img src="77799.jpg">
+	 		</a>
+	 		
+	 		<a href="#over3">	
+	 			<img src="77794.jpg">
+	 		</a>
+ 	</div>
+ 	<div class="overlay" id="over">
+ 		<img src="77788.jpg">
+ 	</div>
+ 	<div class="overlay" id="over2">
+ 		 <img src="7771.jpg">
+ 	</div>
+ 		<div class="overlay" id="over3">
+ 		<img src="77795.jpg">
+ 	</div>
+
+</body>
+</html>
